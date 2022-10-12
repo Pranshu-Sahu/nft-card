@@ -99,7 +99,7 @@ body {
   place-items: center;
   grid-auto-rows: 1fr 2rem;
 }
-h2 {
+h1 {
   display: inline-block;
   font-weight: var(--fw-600);
   font-size: var(--fs-600);
