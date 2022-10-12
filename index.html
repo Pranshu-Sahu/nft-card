@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color:yellow;
+        font-size: 1rem;
+      }
+      .attribution a {
+        color: hsl(229, 27%, 92%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="[ card ] [ p-1 ]">
+      <div class="card__image">
+        <img
+          src="images/image-equilibrium.jpg"
+          alt="image-equilibrium"
+          role="image" />
+      </div>
+      <div class=" [ card__content ] [ flow ]">
+      <h2 class="[ text-neutral-100 hover-effect ]">Equilibrium #3429</h2>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+
+        <div class="d-flex">
+          <p class="text-primary-400 fw-bold">
+            <img src="images/icon-ethereum.svg" alt="ethereum image" />
+            0.041 ETH
+          </p>
+          <p>
+            <img src="images/icon-clock.svg" alt="" />
+            3 days left
+          </p>
+        </div>
+        <div class="[ card__creator ] [ d-flex justify-content-start ] ">
+          <img class="avatar-image" src="images/image-avatar.png" alt="avatar image" />
+          <p>Creation of <span class="text-neutral-100 fw-regular hover-effect">Jules Wyvern</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Pranshu Sahu</a>.
+    </div>
+  </body>
+</html>
